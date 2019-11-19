@@ -1,3 +1,4 @@
+[![Build Status](https://ncjoni.visualstudio.com/Space%20Game%20-%20web/_apis/build/status/j-flat.mslearn-tailspin-spacegame-web?branchName=master)](https://ncjoni.visualstudio.com/Space%20Game%20-%20web/_build/latest?definitionId=1&branchName=master)
 
 # Contributing
 
