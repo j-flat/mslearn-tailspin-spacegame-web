@@ -1,5 +1,7 @@
 [![Build Status](https://ncjoni.visualstudio.com/Space%20Game%20-%20web/_apis/build/status/j-flat.mslearn-tailspin-spacegame-web?branchName=master)](https://ncjoni.visualstudio.com/Space%20Game%20-%20web/_build/latest?definitionId=1&branchName=master)
 
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=j-flat_mslearn-tailspin-spacegame-web)](https://sonarcloud.io/dashboard?id=j-flat_mslearn-tailspin-spacegame-web)
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
