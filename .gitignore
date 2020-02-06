@@ -337,3 +337,4 @@ ASALocalRun/
 .sonarqube/
 
 .scannerwork/
+**/nuget.config

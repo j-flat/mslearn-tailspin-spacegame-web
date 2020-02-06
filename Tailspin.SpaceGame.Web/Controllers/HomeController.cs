@@ -105,7 +105,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
 
                 return View(vm);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
                 return View(vm);
@@ -120,7 +120,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
                 // Fetch the user profile with the given identifier.
                 return View(new ProfileViewModel { Profile = await _profileRespository.GetItemAsync(id), Rank = rank });
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
                 return RedirectToAction("/");
