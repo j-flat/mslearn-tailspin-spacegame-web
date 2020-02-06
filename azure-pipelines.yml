@@ -40,12 +40,6 @@ steps:
     feedsToUse: 'select'
     vstsFeed: 'Space Game - web/Tailspin.SpaceGame.Web.Models'
 
-- task: DotNetCoreCLI@2
-  displayName: 'Restore project dependencies'
-  inputs:
-    command: 'restore'
-    projects: '**/*.csproj'
-
 - task: SonarCloudPrepare@1
   displayName: 'Prepare SonarCloud analysis'
   inputs:
